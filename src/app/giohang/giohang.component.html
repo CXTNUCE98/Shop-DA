@@ -1,0 +1,38 @@
+<table class="table table-light">
+  <thead>
+    <th>Sản phẩm</th>
+    <th>Số lượng</th>
+    <th>Đơn giá</th>
+    <th>Thành tiền</th>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Sản phẩm</th>
+      <th>Số lượng</th>
+      <th>Đơn giá</th>
+      <th>Thành tiền</th>
+    </tr>
+    <ng-container *ngFor="let item of products">
+      <tr>
+        <td>
+          <img src={{item.image}} alt="iphone" style="width: 40px;height: 80px;">
+          <span style="margin-left: 7.5px;">{{item.name}}</span>
+        </td>
+        <td>
+          <!-- <button (click)="add(item.id)">-</button> -->
+          {{item.picked}}
+          <!-- <button (click)="add(item.id)">+</button> -->
+        </td>
+        <td>
+          <div>$ {{item.price}}</div>
+        </td>
+        <td>$ {{item.Tong}}</td>
+      </tr>
+  
+    </ng-container>
+  </tbody>
+</table>
+<div class="prices">
+    <div>Tổng tiền: </div>
+    <div>$ {{tongtien}}</div>
+</div>

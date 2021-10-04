@@ -1,0 +1,20 @@
+* {
+    background-color:darkslategray;
+    margin-top: 20px;
+}
+
+.footer{
+    padding: 10px 10px;
+    background-color: var(--dark-color);
+    text-align: center;
+    color: var(light-color);
+    margin-top: 10px;
+}
+
+p{
+    color: white;
+}
+
+a{
+    color: white;
+}

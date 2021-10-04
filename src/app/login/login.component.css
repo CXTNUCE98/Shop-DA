@@ -1,0 +1,21 @@
+.container {
+    padding: 80px 80px;
+    background-color: var(--dark-color);
+    text-align:inherit;
+    color: var(light-color);
+    margin-top: 100px;
+    border: 2px solid rgb(1, 217, 255);
+}
+
+.button {
+    margin-right: 200px;
+}
+
+.btn btn-primary{
+    text-align:center;
+    margin-right: 150px;
+}
+#submit{
+    text-align: center;
+}
+

@@ -1,0 +1,49 @@
+<div class="container">
+
+    <div class="row">
+
+      <div >
+        
+        <ng-container *ngFor="let item of products">
+            <div class="col">
+              <img src={{item.image}}  alt="iphone" style="width: 280px;height: 540px;">
+              
+                <!-- <button (click)="xoa(item.id)" style="margin-right: 10px; width: 30px;">-</button>
+                {{item.picked}}
+                <button (click)="add(item.id)" style="margin-right: 10px; width: 30px;">+</button> -->
+                
+              </div>
+              <div>{{item.name}}</div>
+              <div>Thông tin cấu hình máy</div>
+              <div class="price">$ {{item.price}}</div>
+              <div class="d-flex">
+            </div>
+            <!-- <button class="btn btn-primary btn-add" (click)="buy(item.id)"><i class="fas fa-cart-plus"></i></button> -->
+          </ng-container>
+        <!-- /.card -->
+
+        <div class="card card-outline-secondary my">
+          <div class="card-header">
+            Nhận xét sản phẩm
+          </div>
+          <div class="card-body">
+            <p>Loi nhan xet</p>
+            <small class="text-muted">dang ngay/thang/nam</small>
+            <hr>
+            <p>loi nhan xet</p>
+            <small class="text-muted">dang ngay/thang/nam</small>
+            <hr>
+            <p>Loi nhan xet</p>
+            <small class="text-muted">dang ngay/thang/nam</small>
+            <hr>
+            <a routerLink="/home" class="btn btn-success">Leave a review</a>
+          </div>
+        </div>
+        <!-- /.card -->
+
+      </div>
+      <!-- /.col-lg-9 -->
+
+    </div>
+
+  </div>

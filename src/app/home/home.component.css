@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.d-block{
+    height: 350px;
+    width: 900px;
+}
+
+.card-img-top{
+    height: 200px;
+    width: 200px;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.btn-primary{
+    background-color: rgb(16, 209, 199);
+    color:var(--light-color);
+}
+.btn-primary:hover{
+    background-color: chocolate;
+}
+
+.col-lg-3{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.price{
+    color: aqua;
+}
+.btn-add{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.col-lg-9 {
+    padding: 20px;
+    margin-top: 20px;
+    color: rgb(0, 247, 255);
+}
+.col-sm-6 .price{
+    text-align: center;
+}
